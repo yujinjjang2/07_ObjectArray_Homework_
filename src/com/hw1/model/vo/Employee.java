@@ -39,7 +39,11 @@ public class Employee {
 	}
 	
 	public String information() {
-		return "";
+		String str = getEmpNo() + ", " + getEmpName() + ", " + getDept() + ", " +
+                getJob() + ", " + getAge() + ", " + getGender() + ", " + 
+				 getSalary() + ", " + getBonusPoint() + ", " + getPhone() + ", " + getAddress();
+		
+		return str;
 	}
 	
 	public void setEmpNo(int empNo) {
